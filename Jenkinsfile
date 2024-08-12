@@ -6,6 +6,12 @@ pipeline {
         }
     }
         stages {
+             stage('Start Docker Daemon') {
+                      steps {
+                             sh 'dockerd &' // Start Docker daemon
+                              sleep 15 // Wait for Docker daemon to start
+            }
+        }
 		stage ("Building docker image"){
 			steps{
 				sh 'docker build -t web-image:latest .'
