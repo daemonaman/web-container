@@ -1,11 +1,10 @@
 pipeline {
-	agent any
-	stages {
-		stage ("pull code from git repo"){
-			steps{
-                git credentialsId: 'jenkins', url: 'git@bitbucket.org:hypersagetechnology/kidtryz-user-web.git'
-			}
-		}
+    agent {
+        docker {
+            image 'abhishekf5/maven-abhishek-docker-agent:v1'
+            args '--user root -v /var/run/docker.sock:/var/run/docker.sock' // Mount Docker socket to access the host's Docker daemon
+        }
+    }
 		stage('Remove Old Containers and Images') {
             steps {
                 script {
