@@ -8,13 +8,13 @@ pipeline {
         stages {
 		stage ("Building docker image"){
 			steps{
-				sh 'sudo docker build -t web-image:latest .'
+				sh 'docker build -t web-image:latest .'
 			}
 		}
 		
 		stage ("Testing the Build"){
 			steps{
-				sh 'sudo docker run -dit --name user-web -p 3000:3000 web-image:latest'
+				sh 'docker run -dit --name user-web -p 3000:3000 web-image:latest'
 			}
 		}
 	}
