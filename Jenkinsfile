@@ -23,5 +23,13 @@ pipeline {
 				sh 'docker run -dit --name user-web -p 3000:3000 web-image:latest'
 			}
 		}
+		stage ("Approval from QAT"){
+			steps {
+				script {
+					Boolean userInput = input(id: 'Proceed1', message: 'Do you want to Promote this build?', parameters: [[$class: 'BooleanParameterDefinition', defaultValue: true, description: '', name: 'Please confirm you agree with this']])
+                				echo 'userInput: ' + userInput
+				}
+			}
+		}
 	}
 }
