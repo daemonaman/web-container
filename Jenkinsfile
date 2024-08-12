@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'node:16'
+            image 'docker:20.10-dind'
             args '--user root -v /var/run/docker.sock:/var/run/docker.sock' // Mount Docker socket to access the host's Docker daemon
         }
     }
