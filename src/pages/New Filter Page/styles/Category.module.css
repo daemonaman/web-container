@@ -1,0 +1,64 @@
+.age_filter_card_all {
+  width: 330px;
+  height: 500px;
+  border-top: 1px solid rgba(11, 11, 11, 0.3);
+  overflow: hidden;
+  border-right: 1px solid rgba(11, 11, 11, 0.3);
+  border-bottom: 1px solid rgba(11, 11, 11, 0.3);
+  border-left: 1px solid rgba(11, 11, 11, 0.3);
+  background: #fff;
+  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 90px;
+}
+
+.filter_page_card_main_body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 20px 10px 70px;
+}
+.age_card_image_main {
+  width: 310px;
+  height: 330px;
+  margin: 1rem;
+  overflow: hidden;
+}
+.age_card_title {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mrp_flex_ages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.line_age_straight {
+  width: 1px;
+  height: 20px;
+  background-color: black;
+}
+.age_line_star_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-left: 14px;
+}
+.age_rating_straigth_line {
+  width: 1px;
+  height: 20px;
+  background-color: black;
+}
+.age_card_one_row_line {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}

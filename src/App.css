@@ -1,0 +1,128 @@
+/* *{
+  font-family: Conv_Roboto-Regular, Arial, san-sarif;
+  overflow-x: hidden;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* body, html {
+
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.min_height {
+  opacity: 0;
+  display: none;
+ 
+}
+
+.main-logo,
+.main-logo-head
+{
+  text-align: center;
+}
+
+.main-logo img {
+  width: 238px;
+  height: 210px;
+  flex-shrink: 0;
+  margin-top: 5rem;
+}
+
+.main-logo-head h1 {
+
+  color: #0B0B0B;
+
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+.main-logo-card {
+ 
+  margin: auto;
+  margin-top: 2rem;
+  top: 0;
+  left: 10%;
+  right: 0;
+  bottom: 0;
+}
+.logo_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 105px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  overflow: hidden; 
+}
+.logo_card img {
+  width: 89.167px;
+  height: 89.167px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.store_logo{
+  margin-top: 2rem;
+}
+.store_logo img{
+  width: 250px;
+height: 100px;
+flex-shrink: 0;
+}
+@media(max-width:1050px) {
+  .max_width {
+    display: none;
+  }
+
+  .min_height {
+    opacity: 1;
+    display: block;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}

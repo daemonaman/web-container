@@ -1,0 +1,45 @@
+#SlideImageHeading1 {
+  text-decoration: none;
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: -12px;
+}
+#Layoutpage_main_map_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 20px;
+}
+#SlideImage1 {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+/* margin-top: 20px; */
+}
+#colla{
+ font-size: 20px;
+ font-weight: 600;
+ margin-top: -1rem;
+color: #0B0B0B;
+font-style: normal;
+}
+.foot_3{
+  height: 10vh;
+}
+.MainMarquee {
+  /* box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.5); */
+  max-width: 100%;
+}
+.add-banner-carousel {
+  /* width: 200px !important; */
+  height: 400px !important;
+}

@@ -1,0 +1,57 @@
+/* .active div{
+    background-color: #ed5066;
+} */
+.name{
+  background: linear-gradient(90deg, rgba(229,27,38,1) 0%, rgba(7,147,182,1) 100%);
+  /* margin-left: 50px */
+  height: 5vh
+  ;
+}
+.listItemText {
+  position: relative;
+  right: -10px;
+}
+.drawer_icon{
+  color: #000000;
+  font-size: large !important; 
+  margin-left: 30%;
+}
+.drawer_text{
+  color: #000000 !important;
+  font-size: small !important;
+}
+
+.container:active{
+  background-color: aqua;
+
+}
+.container:focus{
+  background-color: #000000;
+}
+.logout-button1 {
+  /* position: absolute; */
+  width: 150px;
+  /* height: 48px; */
+  /* left: 46px; */
+  color: white;
+  /* top: 1007px; */
+  
+  /* background: #DCE4E5; */
+  background: linear-gradient(90deg, rgba(229,27,38,1) 0%, rgba(7,147,182,1) 100%);
+
+  border-radius: 800px !important;
+}
+@media screen and (min-width: 764px) and (max-width: 1023px) {
+  .logout-button1 {
+    width: 92px;
+    margin-top: -5px !important;
+    margin-left: 18px !important;
+  }
+}
+@media screen and (min-width: 392px) and (max-width: 550px) {
+  .logout-button1 {
+    margin-left: -82px !important;
+    width: 92px;
+    margin-top: -5px !important;
+  }
+}

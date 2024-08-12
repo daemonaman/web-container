@@ -1,0 +1,12 @@
+#ECOMMCONTACTUS_CARD_LEFT_SIDE {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+}
+#ECOMMCONTACTUS_CARD_SECTION {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}

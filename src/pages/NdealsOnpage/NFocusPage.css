@@ -1,0 +1,70 @@
+  
+  .offers{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    justify-content: center;
+     gap: 15px;
+  }
+  .offers button{
+    background-color: #AC0000;
+    color: #fff;
+    border: none;
+    padding:2px 1rem;
+  }
+  .custom-next-arrow{
+    left: 50%;
+  }
+  #deal{
+    color: #AC0000;
+  }
+  .offers_main{
+    margin-top: -3.5rem;
+    background-color: #fff;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    /* left: 10%; */
+    /* width: ; */
+    padding:0 0.9rem;
+    /* padding-right: 2rem; */
+    position: absolute;
+    border-radius: 5px;
+  }
+  .slide_er img{
+    height: 1rem;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 300px;
+  height: 327px;
+  flex-shrink: 0;
+    object-fit: cover;
+    padding-bottom: 3.5rem;
+  }
+  .slide_er{
+   top: 0;
+  }
+  #NFocusPage_main_body {
+    margin: 20px auto;
+    padding: 20px;
+    height: 100%;
+    position: relative;
+  }
+  .Nfocuspage_heading_one {
+    font-size: 30px;
+  }
+  
+  #NFocusPage_main_body h3{
+   padding: 1rem;
+   color: #0B0B0B;
+
+font-family: Calibri;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+.custom-next-arrow{
+    margin-top:-100rem;
+  }

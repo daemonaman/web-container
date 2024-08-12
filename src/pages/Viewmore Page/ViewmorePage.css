@@ -1,0 +1,147 @@
+#VIEWMOREPAGE_MAIN_BODY {
+  position: relative;
+  background: url(/src//Assets/Viewpage\ BackgroundImage.png);
+  width: 100%;
+  height: 125vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#MAINLOGOVIEW_IMAGE_ONE {
+  width: 200px;
+  height: 100px;
+}
+
+#VIEWMOREPAGE_BUTTON_DIV button {
+  width: 250px;
+  height: 69.572px;
+  flex-shrink: 0;
+  margin-left: 15rem;
+  color: #02A6E2;
+  font-family: Calibri;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 20px;
+  background: #FFF;
+  border: none;
+  cursor: pointer;
+  margin-top: 15rem;
+}
+
+#VIEWMOREPAGE_CARD_SECOND_IMAGE {
+  width: 300px;
+  position: relative;
+  margin-left: 30px;
+  height: 200px;
+}
+
+#VIEWMOREPAGE_CARD_UNDER_IMAGE {
+  width: 200px;
+  height: auto;
+}
+
+#VIEWMOREPAGE_CARD_ALL {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  /* margin-left: 30px; */
+}
+
+#VIEWMOREPAGE_CARD_BODY {
+  display: flex;
+  justify-content: space-between;
+}
+
+#VIEWMOREPAGE_CARD {
+  margin: 90px 5px;
+}
+
+
+
+/* #VIEWMOREPAGE_BUTTON-LINK {
+  padding: 10px 40px;
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #fff;
+flex-shrink: 0;
+color: #02A6E2;
+ margin-left: 13rem;
+font-family: Calibri;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+} */
+
+#VIEWMOREPAGE_CARD_CONTENT {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#VIEWMOREPAGE_MAIN_BODY p {
+  color: #0B0B0B;
+
+  font-family: Calibri;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+
+#VIEWMOREPAGE_CARD_PARAGRAPH {
+  text-align: center;
+}
+
+#VIEWMOREPAGE_ONE_IMAGE {
+  padding: 30px;
+}
+
+#VIEWMOREPAGE-SECOND-IMAGE_CARD img {
+  width: 511px;
+  height: 329px;
+  flex-shrink: 0;
+  margin-left: 5rem;
+}
+
+#VIEWMOREPAGE_ONE_IMAGE img {
+  margin-left: 1rem;
+  width: 250px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+@media (max-width:1450px) {
+  #VIEWMOREPAGE_CARD_BODY {
+    flex-wrap: wrap;
+  }
+
+  #VIEWMOREPAGE_BUTTON_DIV button {
+    margin-left: 2rem;
+  }
+
+  #VIEWMOREPAGE_MAIN_BODY {
+    height: 140vh;
+  }
+}
+
+@media (max-width:1100px) {
+  #VIEWMOREPAGE_BUTTON_DIV button {
+    /* margin-top:-19rem; */
+
+    /* margin-left: 25rem; */
+    padding: 0;
+  }
+
+  #VIEWMOREPAGE_MAIN_BODY {
+    height: 180vh;
+  }
+
+  #VIEWMOREPAGE_BUTTON_DIV {
+    margin-top: -15rem;
+
+  }
+}

@@ -1,0 +1,43 @@
+.orderSummary-txt {
+
+    width: 300px;
+    height: 300px;
+    text-align: left;
+    background-color: aqua;
+
+}
+
+.orderSummary-txt1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.orderSummary-txt2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.orderSummary-txt3 {
+    display: flex;
+    flex-direction: row;
+    gap: 0%;
+
+}
+
+
+
+
+
+.orderSummary-maintxt {
+    width: 700px;
+
+    margin-left: 4%;
+
+
+}
+
+
+
+.orderSummary-step {
+    margin-right: 70%;
+}

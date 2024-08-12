@@ -1,0 +1,184 @@
+#CURATESPAGE_HEADING_ONE {
+  text-align: center;
+  color: #0B0B0B;
+  padding-top: 30px;
+font-family: Calibri;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#CURATEDPAGE_CARD_ALL img{
+  width: 332px;
+height: 274px;
+flex-shrink: 0;
+}
+#CURATEPAGE_MAIN_BODY h3{
+  color: #0B0B0B;
+text-align: center;
+font-family: Calibri;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+align-items: center;
+}
+#CURATEDPAGE_CARD_ALL {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+#CURATEDPAGE_CARD_ONE {
+  margin: 50px 10px;
+}
+#CURATEDPAGE_CARD_IMAGE {
+  width: 250px;
+  height: auto;
+}
+#CURATEDPAGE_BACKGROUND_IMAGE {
+  position: relative;
+  background: url(/src/Assets/CURATED\ IMAGE5.png);
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 110vh;
+}
+
+#CURATEDPAGE_BUTTON {
+  position: relative;
+  top: -70px;
+
+}
+.button {
+  padding: 0.4em 1.2em;
+  border: none;
+  
+  /* margin-left:-4.4rem ; */
+  border-radius: 5px;
+  font-family: Calibri;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #E758FF;
+  transition: all 1000ms;
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+.button:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #E758FF;
+  box-shadow: 4px 5px 17px -4px #268391;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #E758FF;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button:hover::before {
+  width: 250%;
+}
+#CURATEDPAGE_BUTTON{
+  align-items: center;
+  margin-top: -1.1rem;
+  /* margin-left: 1rem; */
+}
+@media (max-width:1300px) {
+  #CURATEDPAGE_BUTTON{
+    justify-content: center;
+    margin-top:10px;
+   /* margin-left:40rem; */
+  }
+  .button{
+    padding:20px;
+    margin:0;
+    font-size: 15px;
+  }
+}
+#CURATEPAGE_MAIN_BODY {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#CURATEDPAGE_BUTTON {
+  /* margin-top: 20px; */
+  text-align: center;
+}
+
+.button {
+  padding: 0.6em 1.6em;
+  border: none;
+  border-radius: 5px;
+  font-family: Calibri;
+  font-size: 2vw; /* Responsive font size */
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #e758ff;
+  transition: all 1000ms;
+  position: relative;
+  overflow: hidden;
+  margin: '20px';
+  
+}
+
+.button:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  box-shadow: 4px 5px 17px -4px #268391;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #e758ff;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button:hover::before {
+  width: 250%;
+}
+
+@media (max-width: 1450px) {
+  .button {
+    padding: 15px;
+    font-size: 15px;
+    margin-top: 1.5rem;
+  }
+  #CURATEDPAGE_BACKGROUND_IMAGE{
+    height: 50vh;
+  }
+}
+@media (max-width: 1250px) {
+  .button {
+    padding: 15px;
+    font-size: 15px;
+    margin-top:0;
+  }
+}

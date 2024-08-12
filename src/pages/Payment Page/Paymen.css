@@ -1,0 +1,14 @@
+.pay_img{
+    height: 2%;
+}
+.payment_main{
+    background-color: rgb(184, 178, 178);
+    height: 100vh;
+}
+.inside_mainpayment{
+    background-color: #fff;
+    height: max-content;
+    width: 50vw;
+   margin:2rem 4rem;
+  top:100%;
+}

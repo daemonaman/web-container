@@ -1,0 +1,21 @@
+/* TripleHeadingImagesComponent.css */
+
+.TripleHeadingImagesComponent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.TripleHeadingImagesComponent h1 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.TripleHeadingImagesComponent img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}

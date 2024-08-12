@@ -1,0 +1,33 @@
+.rating {
+  font-size: 20px; 
+}
+.filter_card_mrp_para_three{
+  color: #FF70A6;
+font-family: Calibri;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.star {
+  color: #ccc; 
+  cursor: pointer;
+}
+   .star-rating {
+  font-size: 20px;
+}
+.star-rating span {
+  color: #ccc;
+  /* margin-left: -5px; */
+}
+.star-rating .filled {
+  color: yellow;
+  margin-left: -15px;
+}
+.filled {
+  color: yellow; 
+  font-size: 23px;
+}
+.for-star{
+  margin-left: -10px;
+}

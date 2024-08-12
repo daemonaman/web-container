@@ -1,0 +1,1 @@
+export const SET_PRODUCT_VIEW = "SET_PRODUCT_VIEW";

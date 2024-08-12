@@ -1,0 +1,38 @@
+.selling-button {
+  color: #fff;
+  font-family: Calibri;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px 50px;
+  border-radius: 10px;
+  background: #ff70a6;
+  flex-shrink: 0;
+  border: none;
+  outline: none;
+}
+.sell-but-main {
+  text-align: center;
+}
+.sell-kidtryz > h2 {
+  font-family: calibri;
+  font-weight: 600;
+  font-size: 25px;
+}
+.sell-kidtryz > ul > li {
+  font-family: calibri;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 0.5rem 0.2rem;
+}
+.how-get-section-two > h4 {
+  font-weight: 300;
+  font-family: calibri;
+  font-size: 20px;
+}
+.how-get-section > h3 {
+  font-family: calibri;
+  font-size: 30px;
+  font-weight: 600;
+}

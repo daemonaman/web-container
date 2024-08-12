@@ -1,0 +1,375 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Calibri', sans-serif;
+}
+
+.main_container {
+  background-color: #d7e1e7;
+}
+
+.main_head_title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main_head_title h2 {
+  margin: 25px 0px 25px 20px;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: Calibri;
+}
+
+.container_box {
+  display: flex;
+  flex-direction: row;
+}
+
+.left_section {
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.content_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.content_box h2 {
+  margin: 8px 0px;
+  font-size: 25px;
+  font-family: Calibri;
+  font-weight: 700;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 4px 5px;
+}
+
+.content label span {
+  padding: 3px;
+}
+
+.content label .MuiTypography-root {
+  font-size: 20px;
+  color: #0B0B0B !important;
+  font-weight: 300;
+  font-family: Calibri;
+}
+
+.content label span .MuiSvgIcon-root {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px !important;
+}
+
+.content_box .content_details {
+  display: flex;
+  flex-direction: column !important;
+  align-items: flex-start;
+}
+
+.content_box .content_details p {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: Calibri;
+  color: #0B0B0B;
+  padding: 5px !important;
+  margin-left: 4px;
+}
+
+.right_section {
+  width: 80%;
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  width: calc(33.333% - 40px);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  height: 490px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product img {
+  width: 100%;
+  height: 280px;
+  display: block;
+}
+
+.product_details {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.product_details h3 {
+  font-family: Calibri;
+  font-weight: 400;
+  font-size: 16px;
+  color: #0B0B0B;
+  line-height: 18px;
+  margin: 10px 0;
+}
+
+.price_box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.product_details .price_box .product_mrp {
+  font-family: Calibri;
+  font-weight: 300;
+  font-size: 18px;
+  color: #00000099;
+  padding: 0px 5px;
+}
+
+.product_details .price_box .bef_disc {
+  text-decoration: line-through;
+  color: #565959;
+  font-family: Calibri;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 3px;
+  padding: 0px;
+}
+
+.product_details .price_box .aft_disc {
+  color: #0B0B0B;
+  margin: 0px 8px;
+  font-weight: 400;
+  font-family: Calibri;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.product_details .price_box .divider {
+  display: inline-block;
+  width: 1px;
+  height: 0.5em;
+  background-color: #0B0B0BB2;
+  margin: 0 10px;
+}
+
+.product_details .price_box .disc_off {
+  font-size: 20px;
+  font-family: Calibri;
+  font-weight: 400;
+  color: #FF70A6;
+}
+
+.product_details .review {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0px;
+}
+
+.css-ryrseu-MuiRating-root {
+  padding: 0px;
+}
+
+.css-ryrseu-MuiRating-root span {
+  padding: 0px;
+}
+
+.MuiRating-iconFilled {
+  color: yellow;
+}
+
+.product_details .review .review_point {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: Calibri;
+  color: #0B0B0B;
+  margin: 0px 5px;
+  padding: 0px;
+}
+
+.product_details .review .divider {
+  display: inline-block;
+  width: 1px;
+  height: 0.5em;
+  background-color: #0B0B0BB2;
+  margin: 0 10px;
+}
+
+.product_details .review .review_person {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: Calibri;
+  color: #0B0B0B;
+  margin: 0px 5px;
+  padding: 0px;
+}
+
+.add-to-bag {
+  width: 100%;
+  background-color: #FF70A6;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Calibri;
+}
+
+.add-to-bag:hover {
+  background-color: #ff3b2f;
+}
+
+.help_box .help_que {
+  font-weight: 700;
+  font-family: Calibri;
+  font-size: 25px;
+  color: #0B0B0B;
+}
+
+.help_box .help_ans {
+  font-weight: 400;
+  font-family: Calibri;
+  font-size: 20px;
+  color: #02A6E2;
+}
+
+.help_box .help_ans span {
+  padding: 0;
+  font-weight: 400;
+  font-family: Calibri;
+  font-size: 20px;
+  color: #0B0B0B;
+  text-align: left;
+
+}
+
+/* --------Media Query------- */
+
+@media (min-width:1000px) and (max-width:1230px) {
+
+  .content_box h2 {
+    font-size: 21px;
+    padding: 0px;
+  }
+
+  .content label .MuiTypography-root {
+    font-size: 14px;
+  }
+
+  .content label span .MuiSvgIcon-root {
+    width: 16px;
+    height: 16px;
+    border-radius: 5px !important;
+  }
+
+  .content_box .content_details p {
+    margin: 0px 0px !important;
+    font-size: 17px;
+  }
+
+  .content_box .avg_customer{
+    font-size: 19px;
+  }
+
+
+  .product {
+    height: 378px;
+  }
+
+  .product img {
+    height: 185px;
+  }
+
+  .product_details h3 {
+    font-size: 15px;
+    margin: 0px;
+  }
+
+  .content .MuiFormControlLabel-label {
+    font-size: 15px;
+  }
+
+  .product_details .price_box {
+    width: 100%;
+    height: 30px;
+  }
+
+  .product_details .price_box .product_mrp {
+    font-size: 16px;
+  }
+
+  .product_details .price_box .aft_disc {
+    font-size: 22px;
+    margin: 0px 6px;
+    padding: 0px;
+  }
+
+  .price_box .bef_disc {
+    font-size: 16px;
+    margin-left: 3px;
+  }
+
+  .product_details .price_box .divider {
+    display: inline-block;
+    width: 1px;
+    height: 0.4em;
+    background-color: #0B0B0BB2;
+    margin: 0px 2px;
+  }
+
+
+  .product_details .price_box .disc_off {
+    font-size: 15px;
+    padding: 0px;
+  }
+
+  .product_details .review {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .product_details .review .divider {
+    margin: 0px;
+  }
+
+  .content_box .content_details p {
+    margin: 6px 0px;
+  }
+
+  .left-section .content_head h2 {
+    margin: 5px 0px;
+  }
+
+  .add-to-bag {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+
+}

@@ -1,0 +1,103 @@
+.about-us {
+  font-family: Arial, sans-serif;
+  margin: 0 25px;
+  padding: 20px;
+  line-height: 1.6rem;
+  overflow: hidden;
+  height: 150vh;
+  position: position;
+  margin-top: 1rem;
+}
+
+.about_main {
+  background-color:#F9F9F9;
+}
+
+.about-us p {
+  text-align: justify;
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+
+.about-us h1,h2 {
+  text-align: justify;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.about-us h2 {
+  text-align: justify;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+.team-message {
+  position: absolute;
+  /* top: 125vh; */
+  left: 80%;
+  text-align: right;
+  width: 200px;
+  margin-top: 2%;
+}
+
+.team-message p {
+  margin: 0;
+}
+
+.team-message img {
+  display: block;
+  margin: 10px 0 0;
+  max-width: 100%;
+}
+
+/* section {
+    margin-bottom: 20px;
+  } */
+.about-us ul {
+  list-style-type: circle;
+  padding: 0;
+}
+
+.about-us li {
+  margin-bottom: 10px;
+  margin-left: 2rem;
+  color: #000;
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+
+strong {
+  /* display: block; */
+  margin-bottom: 5px;
+  color: #000;
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+
+@media (min-width: 1000px) and (max-width: 1450px) {
+  .about-us {
+    height: 100vh;
+  }
+
+  .team-message {
+
+    top: 90vh;
+    text-align: right;
+    width: 200px;
+    /* Adjust width as needed */
+  }
+}

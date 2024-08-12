@@ -1,0 +1,56 @@
+#rectanglepage_heading1 {
+  /* font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  text-align: center; */
+  color: #0B0B0B;
+
+font-family: Calibri;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+text-align: center;
+}
+
+#RectanglePage_top_body{
+  background-color: #f9f9f9;
+  height: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+#RectanglePage_main_body{
+  height: 50vh;
+}
+#rectanglepage_card_all {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 45vh;
+  gap: 1%;
+  justify-content: center;
+  background-color: #fff;
+
+}
+#Rectanglepage_images {
+  width: 220px;
+  height: 220px;
+  flex-shrink: 0;
+}
+
+#rectanglepage_heading2 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: #0B0B0B;
+  margin-top: 1rem;
+font-family: Calibri;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+@media (max-width:1450px) {
+  #RectanglePage_main_body{
+    height:75vh;
+  }
+}

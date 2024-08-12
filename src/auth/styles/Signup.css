@@ -1,0 +1,92 @@
+/* Add this CSS to your component or a separate stylesheet */
+
+.signup_container {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('../../Assets/signinbackground.png') center/cover no-repeat; 
+
+    /* height: 90vh; */
+  }
+  /* .background__image {
+    
+    background: url('../../Assets/signinbackground.png') center/cover no-repeat; 
+  } */
+  .logo-container {
+    margin-bottom: 1px;
+  }
+  .logo-container img{
+     width: 20rem;
+  }
+  .signup-form {
+    /* max-width: 400px; */
+    width: 28%;
+    height: max-content;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+   h2 {
+    /* text-align: center; */
+    padding: 5px;
+  }  
+  label {
+    display: block;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+ 
+  .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0;
+  }
+  
+  hr {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+  }
+  
+  span {
+    padding: 0 10px;
+    color: #555;
+  }
+  
+  .social-logins {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    margin-bottom: 15px;
+    gap: 30px;
+  }
+  
+  .social-logins img {
+    width: 70px;
+    height: 60px;
+    cursor: pointer;
+  }
+  p {
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    .signup-form {
+      width: 80%;
+    }
+  
+    .background-image {
+      display: none;
+    }
+  }
+
+  
+  

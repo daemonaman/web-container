@@ -1,0 +1,10 @@
+.orders{
+    height: 100vh;
+}
+
+@media(max-width:1200px){
+    .orders{
+       
+        height: 120vh;
+    }
+}

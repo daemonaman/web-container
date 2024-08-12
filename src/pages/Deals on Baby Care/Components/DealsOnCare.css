@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.owl-nav > .owl-prev,
+.owl-nav > .owl-next {
+  position: absolute;
+  top: 40px;
+  border-radius: 50% !important;
+  background-color: transparent !important;
+  width: 60px;
+  height: 60px !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 90px !important;
+}
+.owl-nav > .disabled {
+  display: none !important;
+}
+.owl-nav > .owl-prev {
+  display: none;
+}
+.owl-nav > .owl-next {
+  right: 0px;
+  margin-top: 100px;
+}
+.owl-nav > .owl-prev > span,
+.owl-nav > .owl-next > span {
+  position: relative;
+  /* top: -30px; */
+}
+.deals-name-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dealcards {
+  /* margin: 5rem 0px 20px 20px; */
+  margin-top: 5rem;
+  background-color: #f9f9f9;
+ 
+}
+.dealson-owl{
+  margin: 0rem  4.7rem;
+}
+.Deal_head{
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  height: 16vh;
+  width: 100%;
+}
+.Deal_head h2{
+  margin-left: 3rem;
+  color: #0B0B0B;
+font-family: Calibri;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.deals-name-flex > h5 {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.deals-desc-content {
+  margin: 2px 10px 10px 10px;
+}
+.deals-regularprice {
+  color: #fffbfb;
+  font-family: Calibri;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px 10px;
+}
+.deals-regular-background {
+  width: 90px;
+  height: 31px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #ca0000;
+}
+.deals-discountPercentage {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.deals-discount-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deals-add-to-bag-button {
+  width: 100%;
+  height: 37px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 9px 9px;
+  background: #ff70a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-decoration: none;
+}
+.add-to-bag-typo {
+  color: #fff;
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

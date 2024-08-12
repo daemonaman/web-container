@@ -1,0 +1,231 @@
+#WALLETPAGE_MAIN_BODY{
+  height: 90vh;
+}
+#WALLETPAGE_CARD_BODY {
+  width: 80vw;
+  height: 500px;
+  flex-shrink: 0;
+  background-color: #FFF;
+  /* border: 1px solid black; */
+  position: relative;
+  /* margin-top: 30px; */
+  top: 7%;
+  margin-left: 100px;
+}
+#WALLETPAGE_CARD_CHECK_PARAGRAPH img{
+  width: 50vw;
+height: 40px;
+flex-shrink: 0;
+top: 55%;
+}
+#WALLETPAGE_CARD_CHECK_COIN {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 300px;
+  position: relative;
+  top: 50px;
+}
+#WALLETPAGE_CARD_SELECT_CONTAINER {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 250px;
+  height: 40px;
+}
+#WALLETPAGE_SELECT_BOX {
+  border: none;
+  appearance: none;
+  padding: 0 30px 0 15px;
+  width: 100%;
+  color: white;
+  background-color: #02a6e2;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+#WALLETPAGE_ICON_CONTAINER {
+  width: 50px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 4px;
+  align-items: center;
+  justify-content: center;
+}
+#WALLETPAGE_ICON_UNDER {
+  font-size: 30px;
+  color: white;
+}
+#WALLETPAGE_CARD_CHECK_PARAGRAPH {
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  align-items: center;
+}
+.wallet{
+  display: flex;
+  gap: 10px;
+}
+.wallet-para{
+  font-size: 30px;
+  font-weight: 700;
+  /* text-align: left;
+  margin-left: 4rem; */
+}
+
+#WALLETPAGE_IMAGE_ONE {
+  /* width: 1240px; */
+  width: 80vw;
+height: 176px;
+flex-shrink: 0;
+  position: relative;
+
+
+  margin: 100px auto;
+  padding: 10px;
+}
+#WALLETPAGE_THIRD_SECTION {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 200px;
+  margin-top: -5%;
+  position: relative;
+}
+#WALLETPAGE_WHIRD_CARD_HEADING_ONE {
+  color: #0B0B0B;
+
+font-family: Calibri;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#WALLETPAGE_THIRD_CARD_SELECT_CONTAINER {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 250px;
+  height: 40px;
+}
+#WALLETPAGE_THIRD_SELECT_BOX {
+  border: none;
+  appearance: none;
+  padding: 0 30px 0 15px;
+  width: 100%;
+  color: white;
+  background-color: #02a6e2;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+#WALLETPAGE_THIRD_ICON_UNDER {
+  font-size: 30px;
+  color: white;
+}
+#WALLETPAGE_THIRD_ICON_CONTAINER {
+  width: 50px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 4px;
+  left: 220px;
+  align-items: center;
+  justify-content: center;
+}
+.ton {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  border-radius: 5px;
+  background: #02A6E2;
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  color: #FFF;
+font-family: Calibri;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 352px;
+height: 59px;
+flex-shrink: 0;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease-in-out;
+  background: none;
+}
+
+.ton:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.ton:hover .icon {
+  transform: translate(4px);
+}
+
+.ton:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.ton::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+@media (max-width: 1250px) {
+  #WALLETPAGE_CARD_ALL{
+    margin: 0;
+  }
+ 
+   #WALLETPAGE_THIRD_ICON_CONTAINER {
+    left:0;
+   }
+   #WALLETPAGE_CARD_BODY{
+    margin-left: 7rem;
+    top: 0;
+   }
+  #WALLETPAGE_CARD_PARAGRAPH_ONE{
+   
+    margin-left: 0;
+  }
+}

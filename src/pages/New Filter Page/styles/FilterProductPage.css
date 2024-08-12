@@ -1,0 +1,327 @@
+.Filter_page_main_body {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  background-color: #f8f8f8;
+}
+.filter_page_left_side_main {
+  width: 320px;
+  height: 100vh;
+  overflow: scroll;
+  flex-shrink: 0;
+  position: relative;
+  overflow-x: hidden;
+  /* top: -370px; */
+  /* margin-top: -160px; */
+  background: #fff;
+}
+@media (min-width: 1200px) and (max-width: 1550px) {
+  .filter_page_left_side_main {
+    width: 290px;
+    height: 100vh;
+    overflow: scroll;
+    flex-shrink: 0;
+    position: relative;
+    overflow-x: hidden;
+    background: #fff;
+    position: relative;
+    /* top: -370px; */
+  }
+}
+.filter_page_sidemenu_para {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 175% */
+  position: relative;
+  left: 20px;
+}
+.filter_page_checkbox_side_flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  left: 20px;
+}
+.sort_by_para_one {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  left: 20px;
+}
+.filter_page_sidemenu_input_one {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  position: relative;
+  left: 20px;
+  border-radius: 5px;
+  border: 1px solid rgba(11, 11, 11, 0.5);
+}
+.filter_page_category_para_one {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+.filter_page_category_para_two {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  top: 25px;
+  left: 40px;
+}
+#category_filter_title {
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+.category_filter_title_para {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+}
+.filter_delivery_flex_one {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  top: 60px;
+  left: 20px;
+}
+.filter_delivery_title_para {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+.filter_delivery_input_one {
+  position: relative;
+  left: 20px;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid rgba(11, 11, 11, 0.5);
+}
+.filter_delivery_input_para_one {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  position: relative;
+  left: 20px;
+}
+.pay_on_delivery_flex_one {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  top: 60px;
+}
+.pay_on_delivery_input_one {
+  width: 18px;
+  position: relative;
+  top: 40px;
+  left: 40px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid rgba(11, 11, 11, 0.5);
+}
+.pay_on_delivery_para_one {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+.filter_pay_on_delivery_title {
+  position: relative;
+  top: 90px;
+  left: 20px;
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Deals_and_discount_para_one {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: 130px;
+  left: 20px;
+}
+.Deals_and_discount_input_one_page {
+  width: 18px;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid rgba(11, 11, 11, 0.5);
+}
+.Deals_and_discount_para_one_two {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.Deals_and_discount_felx_one {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  position: relative;
+  top: 130px;
+}
+.Disount_filter_para {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: 150px;
+  left: 20px;
+}
+.discount_data_paragraph {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px; /* 200% */
+  position: relative;
+  top: 150px;
+  left: 40px;
+}
+.Price_all_under_para_one {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  position: relative;
+  top: 160px;
+  left: 30px;
+  line-height: normal;
+}
+.price_data_all_title {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 200% */
+  position: relative;
+  cursor: pointer;
+}
+.Price_data_flex_one {
+  position: relative;
+  top: 160px;
+  left: 40px;
+}
+.avg_customer_para_one {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: 170px;
+  left: 30px;
+}
+.avg_customer_star_para_one {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  position: relative;
+  top: 180px;
+  cursor: pointer;
+  left: 40px;
+}
+.availability_flex_one {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  position: relative;
+  top: 200px;
+  left: 40px;
+}
+.Availability_para_title {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: 190px;
+  cursor: pointer;
+  left: 30px;
+}
+.availability_input_para_one {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 200% */
+}
+.availability_input_one {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid rgba(11, 11, 11, 0.5);
+}

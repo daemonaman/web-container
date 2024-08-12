@@ -1,0 +1,90 @@
+#SHOPBYAGEPAGE_MAIN_BODY {
+  background-color: #f9f9f9;
+  height: max-content;
+}
+
+#SHOPAGEPAGE_CARD_ALL {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1%;
+}
+
+#SHOPAGEPAGE_CARD {
+  margin: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+#SHOPAGEPAGE_CARD:hover {
+  transform: scale(1.1);
+}
+
+#SHOPAGEPAGE_CARD:hover p {
+  color: #cd9513; /* Change the color of the paragraph when the card is hovered */
+}
+
+#SHOPAGEPAGE_HEADING_ONE {
+  text-align: center;
+  color: #0B0B0B;
+
+  font-family: Calibri;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card-image {
+  border-radius: 50%; 
+  transition: box-shadow 0.3s ease; /* Add a transition for smoother effect */
+}
+
+.card-image:hover {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3); 
+}
+#SHOPAGEPAGE_CARD-IMAGE {
+  width: 220px;
+  height: 220px;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#SHOPAGEPAGE_CARD_PARAGRAPH_TWO {
+  text-align: center;
+  color: #0B0B0B;
+  cursor: pointer;
+  font-family: Calibri;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -2rem;
+}
+#SHOPAGEPAGE_TOP_BODY{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 16vh;
+}
+#SHOPAGEPAGE_CARD_PARAGRAPH_ONE {
+  text-align: center;
+  color: #0B0B0B;
+
+  font-family: Calibri;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: -60px;
+  border: 1px solid black;
+  width: 136px;
+  height: 34px;
+  border-radius: 20px;
+  border: 1px solid rgba(11, 11, 11, 0.50);
+  left: 42px;
+
+}

@@ -1,0 +1,1 @@
+export const GET_PRODUCT_VIEW = "GET_PRODUCT_VIEW";

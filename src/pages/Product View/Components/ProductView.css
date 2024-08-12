@@ -1,0 +1,1203 @@
+#PRODUCTPAGE_IMAGE_ONE {
+  width: 100px;
+  height: auto;
+}
+.main {
+  text-align: center;
+  margin-top: 20px;
+}
+.flex_row {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  /* left: -290px; */
+  margin-top: 1rem;
+}
+#worddata_image_body {
+  width: 612px;
+  height: 737px;
+  flex-shrink: 0;
+  position: relative;
+  margin-left: 12rem;
+}
+.thumbnail {
+  /* padding-left: 20px; */
+}
+
+#Productpage_image_under {
+  width: 129px;
+  height: 129px;
+  flex-shrink: 0;
+}
+.main_head {
+  display: flex;
+}
+/* #PRODUCTPAGE_CARD_ALL{
+  margin-left: 10rem;
+} */
+.main-head {
+  display: flex;
+}
+#PRODUCTPAGE_CARD_SECOND_IMAGE {
+  width: 500px;
+  height: auto;
+}
+#PRODUCTPAGE_CARD_TOP_IMAGES {
+  margin-left: 50px;
+}
+#PRODUCTPAGE_DESCRIPTION_ALL {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 7rem;
+}
+#PRODUCTPAGE_ALL_UL {
+  position: relative;
+  margin-left: 6px;
+  margin-top: 20px;
+}
+#PRODUCTPAGE_ALL_UL ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+#PRODUCTPAGE_ALL_UL li {
+  color: #0b0b0b;
+
+  text-align: justify;
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#PRODUCTPAGE_ALL_LI {
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+#PRODUCTPAGE_ALL_LI3 {
+  position: relative;
+  margin-top: 7px;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#PRODUCTPAGE_ALL_LI2 {
+  font-size: 20px;
+  position: relative;
+  margin-top: 7px;
+  font-family: "Ubuntu", sans-serif;
+}
+#PRODUCTPAGE_ALL_LI4 {
+  position: relative;
+  margin-top: 7px;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+#PRODUCTPAGE_ALL_L5 {
+  position: relative;
+  margin-top: 7px;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+#PRODUCTPAGE_ALL_L6 {
+  position: relative;
+  margin-top: 7px;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+#PRODUCTPAGE_ALL_L7 {
+  position: relative;
+  margin-top: 7px;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+#PRODUCTPAGE_HEADING_ONE {
+  font-family: "Ubuntu", sans-serif;
+}
+#PRODUCTPAGE_DESCRIPTION_ALL {
+}
+#PRODUCTPAGE_SECOND_BODY {
+  display: flex;
+}
+#PRODUCTPAGE_SECOND_CARD_ICON {
+  width: 50px;
+  height: auto;
+  position: relative;
+  left: -60px;
+  top: 10px;
+}
+#PRODUCTPAGE_THIRD_CARD_CONTENTSECTION {
+  margin-left: 20px;
+  margin-top: 10px;
+  position: relative;
+  width: 619px;
+}
+#PRODUCTPAGE_THIRD_CARD_CONTENTSECTION h3 {
+  color: #0b0b0b;
+
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#PRODUCTPAGE_THIRD_HEADING_ONE {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+#PRODUCTPAGE_THIRD_HEADING_TWO {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+}
+#PRODUCTPAGE_THIRD_HEADING_THREE {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 17px;
+}
+#PRODUCTOPAGE_FOUR_SECTION_ONE {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+#PRODUCTPAGE_FOUR_CARD_ICONS {
+  color: yellow;
+  height: 1.6em;
+}
+#PRODUCTPAGE_FOUR_CARD_ICONS_IMAGE {
+  color: yellow;
+  height: 1.6em;
+}
+#PRODUCTPAGE_SECRIPTION_MAIN_BODY {
+  display: flex;
+  justify-content: space-between;
+}
+#PRODUCTPAGE_DECRIPTION_CARD_IMAGE {
+  width: 289px;
+  height: 289px;
+  flex-shrink: 0;
+  /* object-fit: cover; */
+}
+#PRODUCTPAGE_DECRIPTION_CARD_UNDER {
+  position: relative;
+  /* margin-left: 100px; */
+}
+#PRODUCTPAGE_DECRIPTION_CARD_ALL {
+  border: 1px solid rgba(11, 11, 11, 0.3);
+  /* height: 420px; */
+  width: 289px;
+  height: 470px;
+  flex-shrink: 0;
+  position: relative;
+  left: -70px;
+  margin-top: 7rem;
+  /* width: 250px; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+#PRODUCTPAGE_DECCRIPTION_CARD_all_PARAGRAPHS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  left: -13px;
+  top: 10px;
+}
+#PRODUCTPAGE_DECCRIPTION_CARD_PARA_ONE {
+  color: #0b0b0b;
+
+  font-family: Calibri;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#PRODUCTPAGE_DECCRIPTION_CARD_ALL-ICONS_FLEX {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+  top: 20px;
+  left: 10px;
+}
+#PRODUCTPAGE_CUSTOMER_VIWE_CARD_HEAD_PARA {
+  font-family: "Ubuntu", sans-serif;
+}
+#PRODUCTPAGE_CUSTOMER_VIWE_CARD_VERTI_PARA {
+  font-family: "Ubuntu", sans-serif;
+}
+#PRODUCTPAGE_CUSTOMER_VIWE_CARD_VERITICAL_LINE {
+  font-family: "Ubuntu", sans-serif;
+  width: 2px;
+  height: 19px;
+  background-color: black;
+}
+#PRODUCTPAGE_DECCRIPTION_CARD_MRP {
+  color: rgba(11, 11, 11, 0.6);
+
+  font-family: Calibri;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+#PRODUCTPAGE_DECCRIPTION_CARD_VERTICAL {
+  font-family: "Ubuntu", sans-serif;
+  width: 2px;
+  height: 15px;
+  background-color: black;
+}
+#PRODUCTPAGE_ALL_SECOND_HEADING {
+  font-family: "Ubuntu", sans-serif;
+  position: relative;
+  color: #0b0b0b;
+  text-align: justify;
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 0px;
+}
+#PRODUCTPAGE_DECCRIPTION_CARD_PARA_ONE_PARA_TWO {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  color: #ff70a6;
+}
+#PRODUCTPAGE_ALL_DECRIPTION_PARA-TWO {
+  font-family: "Ubuntu", sans-serif;
+  text-align: justify;
+  position: relative;
+  width: 1000px;
+  /* margin-left: 20px; */
+  color: #524d4d;
+
+  text-align: justify;
+  font-family: Calibri;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#PRODUCTPAGE_DECCRIPTION_CARD_IMAGE_HEADING {
+  font-family: "Ubuntu", sans-serif;
+  color: #0b0b0b;
+
+  font-family: Calibri;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* text-align: justi; */
+  left: 10px;
+  position: relative;
+}
+#PRODUCTPAGE_CUSTOMER_VIWE_CARD_VERTI_BUTON_HEAD {
+  position: relative;
+  top: -28px;
+  margin-left: -4.33rem;
+}
+#PRODUCTPAGE_CUSTOMER_VIWE_CARD_VERTI_BUTON_HEAD button {
+  width: 287.5px;
+  height: 37px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #ff70a6;
+  overflow: hidden;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#PRODUCTPAGE_DECRIPTION_ALL_PARA-MAIN_BODY_THREE {
+  position: relative;
+  margin-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+#PRODUCTPAGE_DECRIPTION_ALL_PARA-MAIN_BODY_THREE p {
+  color: #524d4d;
+  text-align: justify;
+  font-family: Calibri;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#PRODUCTPAGE_DECRIPTION_ALL_PARA_THREE {
+  position: relative;
+  margin-top: 10px;
+}
+#PRODUCTPAGE_DECRIPTION_ALL_PARA_FOUR {
+  position: relative;
+  margin-top: 2px;
+}
+#PRODUCTPAGE_DECRIPTION_ALL_PARA_FIVE {
+  position: relative;
+  margin-top: 2px;
+}
+#PRODUCTPAGE_DECRIPTION_ALL_PARA_SIX {
+  position: relative;
+  margin-top: 2px;
+}
+#PRODUCTPAGE_DECRIPTION_ALL_PARA_SEVEN {
+  position: relative;
+  margin-top: 2px;
+}
+#PRODUCTPAGE_DECRIPTION_ALL_PARA_EIGHT {
+  position: relative;
+  margin-top: 2px;
+}
+#PRODUCTPAGE_DECRIPTION_ALL_PARA_NINE {
+  position: relative;
+  margin-top: 2px;
+}
+#PRODUCTOPAGE_FOUR_SECTION_ONE {
+  display: flex;
+}
+#PRODUCTPAGE_FOUR_CARD_SPAN {
+  position: relative;
+  margin-left: 20px;
+}
+#PRODUCTPAGE-FOUR_CARD_CONTENT {
+  position: relative;
+  margin-left: 20px;
+}
+#PRODUCTPAGE-FOUR_CARD_CONTENT h3 {
+  color: #0b0b0b;
+
+  font-family: Calibri;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+#PRODUCTPAGE-FOUR_CARD-HEADING-ONE {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+}
+#PRODUCTPAGE_MRP_SECTION_MAIN_BODY {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 17px;
+}
+
+#PRODUCTPAGE_MRP_SECTION-HEADING_ONE,
+#PRODUCTPAGE-MRP_SPAN-ONE,
+#PRODUCTPAGE_MRP_PARAGRAPH_ONE {
+  margin: 0;
+}
+
+#PRODUCTPAGE_MRP_SECTION_MAIN_BODY h3 {
+  color: rgba(11, 11, 11, 0.6);
+
+  font-family: Calibri;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+#PRODUCTPAGE_MRP_SECTION_MAIN_BODY span {
+  color: #0b0b0b;
+  font-family: "Calibri", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#PRODUCTPAGE-MRP_SPAN-ONE {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 19px;
+  padding: 0px 20px;
+}
+#PRODUCTPAGE_MRP_VERCTICAL {
+  position: relative;
+  display: inline;
+}
+#PRODUCTPAGE_MRP_VERCTICAL::after {
+  content: "";
+  width: 0.3px;
+  height: 18px;
+  /* top: 10px; */
+  display: block;
+  background-color: rgba(11, 11, 11, 0.7);
+  position: absolute;
+  right: 10px;
+  transform: translateY(-50%);
+}
+#PRODUCTPAGE_MRP_PARAGRAPH_ONE {
+  color: #ff70a6;
+  font-family: "Calibri", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#PRODUCTPAGE_MRP_SECTION-HEADING_ONE {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+}
+#PRODUCTPAGE-FOUR_CARD_SPAN_TWO {
+  position: relative;
+  display: inline;
+  align-items: center;
+}
+#PRODUCTPAGE-FOUR_CARD_SPAN_TWO::after {
+  content: "";
+  width: 1px;
+  height: 14px;
+  margin-top: -0.8rem;
+  display: block;
+  background-color: rgba(11, 11, 11, 0.7);
+  position: absolute;
+  right: -10px;
+  transform: translateY(-50%);
+}
+#PRODUCTPAGE_MRP_PARAGRAPH_TWO {
+  color: rgba(11, 11, 11, 0.6);
+
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 1.3rem;
+  font-family: "Calibri", sans-serif;
+}
+#PRODUCTPAGE_COLOR_HEADING_ONE {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 20px 20px;
+}
+#PRODUCTPAGE_COLOR_TOPCONTENT {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 0px 9rem;
+}
+#PRODUCTPAGE_COLOR_CARD_IMAGE_ONE {
+  width: 100px;
+  height: auto;
+}
+#PRODUCTPAGE_BUTTON_SECTION_UNDER_ONE {
+  padding: 10px 40px;
+  background-color: palevioletred;
+  color: white;
+  font-size: 20px;
+  border-radius: 13px;
+  outline: none;
+  border: none;
+}
+#PRODUCTPAGE_BUTTON_SECTION_UNDER_TWO {
+  padding: 10px 50px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+  border-radius: 13px;
+  outline: none;
+  border: none;
+}
+#PRODUCTPAGE_BUTTON-SECTION_TWO_BODY {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#PRODUCTPAGE_BUTTON-SECTION_TWO_BODY button {
+  width: 226px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #02a6e2;
+  cursor: pointer;
+}
+#PRODUCTPAGE_BUTTON_SECTION_ONE_BODY {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+#PRODUCTPAGE_BUTTON_SECTION_ONE_BODY button {
+  width: 226px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #ff70a6;
+  cursor: pointer;
+}
+#PRODUCTPAGE_bUTTON_SECTION_MAIN_BODY {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+#PRODUCTPAGE_BUTTON_SECTION_VERTICAL-ROW {
+  position: relative;
+  display: inline;
+}
+#PRODUCTPAGE_BUTTON_SECTION_VERTICAL-ROW::after {
+  content: "";
+  width: 1px;
+  height: 90px;
+  top: 80px;
+  display: block;
+  background-color: grey;
+  position: absolute;
+  right: -19px;
+  transform: translateY(-50%);
+}
+#PRODUCTPAGE_PINCODE_SECTION_HEADING {
+  color: rgba(11, 11, 11, 0.7);
+
+  font-family: Calibri;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#PRODUCTPAGE_PINCODE-SECTION_UP_BODY {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#PRODUCTPAGE_PINCODE_INPUT_MAIN_BODY {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#PRODUCTPAGE_PINCODE_INPUT_MAIN_BODY p {
+  margin-top: -1.9rem;
+  margin-left: 13rem;
+  cursor: pointer;
+  color: #02a6e2;
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+/*  */
+#PRODUCTPAGE_PINCODE_INPUT_MAIN_BODY {
+  position: relative;
+  display: inline-block;
+}
+#PRODUCTPAGE_PINCODE_INPUT_MAIN_BODY input {
+  width: 250px;
+  height: 50px;
+  flex-shrink: 0;
+}
+#PRODUCTPAGE_PINCODE_INPUT-ONE_section {
+  padding-right: 40px; /* Adjust as needed */
+  width: 200px;
+  box-sizing: border-box;
+}
+/*  */
+#PRODUCTPAGE_PINCODE_INPUT_MAIN_BODY button {
+  position: absolute;
+  width: 140px;
+  height: 56px;
+  overflow: hidden;
+  border: none;
+  background: none;
+  position: relative;
+  padding-bottom: 2em;
+  cursor: pointer;
+  right: 30%;
+  color: #02a6e2;
+
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+#PRODUCTPAGE_PINCODE_INPUT-ONE_section {
+  outline: none;
+  border: none;
+  border: 1px solid grey;
+  padding: 10px 40px;
+}
+#PRODUCTPAGE_CUSTOMER_VIWED_HEADING_ONE {
+  color: #0b0b0b;
+
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  margin: 30px 45px;
+  left: 4.3%;
+}
+#PRODUCTPAGE_PINCODE_INPUT_MAIN_BODY {
+  position: relative;
+  display: inline-block;
+}
+
+#PRODUCTPAGE_PINCODE_INPUT_MAIN_BODY input {
+  padding-right: 30px;
+}
+
+#PRODUCTPAGE_PINCODE_INPUT_MAIN_BODY p {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  margin: 0;
+}
+
+#PRODUCTPAGE_CUSTOMER_VIWED_CARDS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 10px;
+  gap: 40px;
+}
+#PRODUCTPAGE_COLOR_MAIN_BODY h3 {
+  color: #0b0b0b;
+
+  font-family: Calibri;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#PRODUCTPAGE_COLOR_CARD_ONE {
+  position: relative;
+  margin-left: -5rem;
+}
+#PRODUCTPAGE_COLOR_CARD_ONE img {
+  width: 129px;
+  height: 129px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  z-index: 0;
+}
+
+.price {
+  width: 129px;
+  height: 25px;
+  flex-shrink: 0;
+  border-right: 1px solid rgba(11, 11, 11, 0.3);
+  border-bottom: 1px solid rgba(11, 11, 11, 0.3);
+  border-left: 1px solid rgba(11, 11, 11, 0.3);
+  background: #fff;
+  margin-top: -1.2rem;
+  z-index: 100000;
+  position: absolute;
+}
+.price p {
+  text-align: center;
+  color: rgba(11, 11, 11, 0.7);
+  font-family: Calibri;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+#PRODUCTPAGE_CUSTOMER_VIWED_CARDS_UNDER_HEAD {
+  border-radius: 10px 10px 10px 10px;
+  width: 280px;
+  margin-right: 0.7rem;
+  overflow: hidden;
+  height: 449px;
+  border: 1px solid rgba(11, 11, 11, 0.3);
+  /* border-top: 1px solid rgba(11, 11, 11, 0.3);
+  border-right: 1px solid rgba(11, 11, 11, 0.3);
+  border-left: 1px solid rgba(11, 11, 11, 0.3); */
+}
+#PRODUCTPAGE_CUSTOMER_VIWED_CARDS_images {
+  width: 289px;
+  height: 289px;
+  flex-shrink: 0;
+  overflow: hidden;
+  /* object-fit: contain; */
+}
+#PRODUCTPAGE_TOP_CONTAINER h2 {
+  color: #0b0b0b;
+
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#PRODUCTPAGE_CUSTOMER_VIWED_CARDS_MRP {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  margin-top: 10px;
+  left: -10px;
+}
+#PRODUCTPAGE_CUSTOMER_VIWED_CARDS_HEADING_ONE {
+  color: #0b0b0b;
+
+  font-family: Calibri;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 5px;
+}
+#PRODUCTPAGE_CUSTOMER_VIWED_CARDS_HRT {
+  width: 3px;
+  font-weight: bold;
+  background-color: black;
+  height: 16px;
+}
+#PRODUCTPAGE_CUSTOMER_VIWED_CARDS_RATINGS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 10px;
+  float: left;
+  margin-left: 0.7rem;
+  margin-top: 8px;
+}
+#PRODUCTPAGE_CUSTOMER_VIWED_CARDS_RATINGS_PRA_ONE {
+  font-family: "Ubuntu", sans-serif;
+}
+#CUSTOMER_VIWED_CARDS_RATINGS {
+  font-family: "Ubuntu", sans-serif;
+}
+#PRODUCTPAGE_CUSTOMER_VIWE_CARD_ICONS_HEAD {
+  color: #ffe500;
+  font-size: 1.2rem;
+}
+#PRODUCTPAGE_CUSTOMER_VIWED_CARDS_PARA_ONEE {
+  color: rgba(11, 11, 11, 0.6);
+
+  font-family: Calibri;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+#PRODUCTPAGE_CUSTOMER_VIWED_CARDS_PARA_TWOO {
+  color: #0b0b0b;
+
+  font-family: Calibri;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#PRODUCTPAGE_CUSTOMER_VIWED_CARDS_PARA_THREEE {
+  color: #ff70a6;
+
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#_CUSTOMER_VIWED_CARDS_RATINGS_HRT {
+  width: 2px;
+  height: 19px;
+  background-color: black;
+}
+#PRODUCTPAGE_CUSTOMER_VIWED_CARDS_RATINGS {
+  position: relative;
+  left: -5px;
+}
+#RECTANGLE_BUTTON_PRODUCTPAGE_UNDER {
+  border-radius: 0px 0px 2px 2px;
+  background: #ff70a6;
+  padding: 11px 70px;
+  overflow: hidden;
+  /* width: 300px; */
+  width: 100%;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+#RECTANGLE_BUTTON_PRODUCTPAGE_HEAD {
+  position: relative;
+  top: 12px;
+  cursor: pointer;
+}
+#REVIEW_SECTION_PRODUCTPAGE {
+  width: 1512px;
+  height: 205vh;
+  background-color: white;
+}
+.review-part {
+  margin-left: 3rem;
+}
+#REVIEW_SECTION_PRODUCTPAGE_CARD_SECTION {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  position: relative;
+  left: 120px;
+}
+#REVIEW_SECTION_PRODUCTPAGE_HRT {
+  width: 1px;
+  height: 174px;
+  background: rgba(11, 11, 11, 0.3);
+  position: relative;
+  top: 20px;
+}
+#REVIEW_SECTION_PRODUCTPAGE_IMAGE {
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+}
+.toggle img {
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+}
+#REVIEW_SECTION_PRODUCTPAGE_IMAGE_SECTION {
+  position: relative;
+  left: 70px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#REVIEW_SECTION_PRODUCTPAGE_TOP_HEADING {
+  position: relative;
+  margin-top: 60px;
+  left: 70px;
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#REVIEW_SECTION_PRODUCTPAGE_BUTTON_UNDER {
+  width: 260px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid rgba(11, 11, 11, 0.3);
+  background: #fff;
+  color: #02a6e2;
+  transition: all 0.3s ease;
+  font-family: Calibri;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#REVIEW_SECTION_PRODUCTPAGE_BUTTON_UNDER:hover {
+  width: 270px;
+  height: 65px;
+  padding: 12px 24px; /* Set the larger padding on hover */
+}
+#REVIEW_SECTION_PRODUCTPAGE_BUTTON_UP {
+  position: relative;
+  left: 30px;
+}
+#REVIEW_SECTION_PRODUCTPAGE_PARA-FOUR {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+#REVIEW_SECTION_PRODUCTPAGE_PARA_THREE {
+  color: rgba(11, 11, 11, 0.8);
+  font-family: Calibri;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#REVIEW_SECTION_PRODUCTPAGE_PARA_ONE {
+  color: #0b0b0b;
+
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#REVIEW_SECTION_PRODUCTPAGE_PARA_TWO {
+  color: #0b0b0b;
+
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  top: 10px;
+}
+#TOP_REVIEW_PRODUCTPAGE_HEADING_ONE {
+  position: relative;
+  margin-top: 20px;
+  left: 70px;
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#REVIEW_SECTION_PRODUCTPAGE_STAR_SECTION {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  top: 20px;
+}
+#REVIEW_SECTION_PRODUCTPAGE_STAR_SECTION p {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+#REVIEW_SECTION_PRODUCTPAGE_PARA_THREE_FOUR {
+  position: relative;
+  top: 30px;
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+#TOP_REVIEW_PRODUCTPAGE_TOP_CONTENT {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  position: relative;
+  left: 70px;
+  top: 20px;
+}
+#TOP_REVIEW_PRODUCTPAGE_TOP_IMAGE {
+  width: 45px;
+  height: 45px;
+  flex-shrink: 0;
+}
+#TOP_REVIEW_PRODUCTPAGE_TOP_HEADING_ONE {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#TOP_REVIEW_PRODUCTPAGE_STAR_HEAD {
+  position: relative;
+  left: 70px;
+  top: 40px;
+}
+#TOP-REVIEW_STAR_ICONS_HEAD {
+  font-size: 20px;
+  color: yellow;
+}
+#TOP-REVIEW_STAR_ICONS_DOWN_HEAD {
+  position: relative;
+  left: 70px;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+#TOP-REVIEW_STAR_ICONS_DOWN_PARA_ONE {
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  position: relative;
+  left: 70px;
+  top: 40px;
+}
+#TOP-REVIEW_STAR_ICONS_DOWN_PARA_TWO {
+  font-family: "Ubuntu", sans-serif;
+  color: #ff70a6;
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+#TOP-REVIEW_STAR_ICONS_DOWN_HRT {
+  width: 2px;
+  height: 15px;
+  background-color: black;
+}
+#TOP-REVIEW_STAR_ICONS_DOWN_PARA_THREE {
+  position: relative;
+  left: 70px;
+  top: 60px;
+  color: #0b0b0b;
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 917px;
+}
+#TOP-REVIEW_STAR_ICONS_DOWN_IMAGE_CARD {
+  width: 150px;
+  height: auto;
+}
+#REVIEW_SECTION_PRODUCTPAGE_IMAGE_last {
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  /* filter: blur(1px); */
+  border-radius: 10px;
+  background: linear-gradient(
+    10deg,
+    rgba(11, 11, 11, 0.6) 0%,
+    rgba(11, 11, 11, 0.6) 100%
+  );
+}
+#REVIEW_SECTION_PRODUCTPAGE_IMAGE_HEADING {
+  position: absolute;
+  color: #fff;
+  margin-left: 2rem;
+  top: 25%;
+  text-align: center;
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#TOP-REVIEW_STAR_ICONS_DOWN_IMAGE-HEAD {
+  position: relative;
+  top: 76px;
+  left: 70px;
+}
+#TOP-REVIEW_STAR_ICONS_DOWN_BUTTON_FIRST {
+  border-radius: 10px;
+  border: 1px solid rgba(11, 11, 11, 0.3);
+  background: #f9f9f9;
+  padding: 10px 40px;
+  color: #02a6e2;
+  font-size: 15px;
+}
+#TOP-REVIEW_STAR_ICONS_DOWN_BUTTON_TWO {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  position: relative;
+  top: 30px;
+}
+#TOP-REVIEW_STAR_ICONS_DOWN_BUTTON_SECOND {
+  outline: none;
+  border: none;
+  color: rgba(187, 187, 187, 0.7);
+  font-family: Calibri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: none;
+  cursor: pointer;
+}
+#TOP_REVIEW_PRODUCTPAGE_SECTION_TWO {
+  position: relative;
+  top: 130px;
+}
+/* modal */
+body.active-modal {
+  overflow-y: hidden;
+  z-index: 2;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(41, 36, 36, 0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 400px;
+  min-width: 300px;
+  height: 340px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+  overflow: scroll;
+  overflow-x: hidden;
+  z-index: 1;
+  scroll-behavior: smooth;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  /* z-index: 1; */
+  overflow: hidden;
+  padding: 5px 7px;
+  color: red;
+}
+#OPENMODAL_ALL {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+@media (min-width: 500px) {
+  #OPENMODAL_ALL {
+    flex-wrap: wrap;
+  }
+}
+
+

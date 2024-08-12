@@ -1,0 +1,41 @@
+#BATHPAGE_HEADING_ONE {
+  text-align: center;
+  /* padding: 40px; */
+  color: #0b0b0b;
+ align-items: center;
+  font-family: Calibri;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#BATHPAGE_TOP_BODY{
+  height: 17vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background-color: #f9f9f9;
+}
+#BATHPAGE_CARD_ALL {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1%;
+  padding-bottom: 2rem;
+  background-color: #fff;
+}
+#BATHPAGE_CARD_ONE {
+  overflow: hidden;
+ 
+}
+#BATHPAGE_CARD_IMAGE {
+  width: 228px;
+  height: 228px;
+  flex-shrink: 0;
+}
+
+#BATHPAGE_CARD_HEADING_ONE {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}

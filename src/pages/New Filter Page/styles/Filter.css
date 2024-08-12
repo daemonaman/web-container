@@ -1,0 +1,59 @@
+.filter_main {
+  background-color: #ffff;
+  /* margin-top: 40px; */
+}
+
+.filter_main_div {
+  justify-content: flex-start;
+  background-color: #fff;
+  width: 300px;
+}
+.filter_main_div p{
+  text-align: left;
+}
+.filter_sortby {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.filter_sortby_list {
+  font-size: 20px;
+  font-weight: 300;
+  color: #0b0b0b;
+  line-height: 35px;
+}
+
+#filter_getit {
+  font-size: 20px;
+  font-weight: 300;
+  color: #0b0b0b;
+  line-height: 35px;
+  margin-left: 3%;
+}
+.filer_category_sub_heding {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#includeOutOfStock,
+#todaysDeals,
+#allDiscounts,
+#payOnDelivery,
+#getTomorrow,
+#getToday {
+  width: 18px;
+  height: 18px;
+  margin-left: 3%;
+  padding-left: 3%;
+  margin-top: 5%;
+}
+
+.filter_sortby_checkbox_list {
+  width: 18px;
+  height: 18px;
+  margin-left: 3%;
+  padding-left: 3%;
+  margin-top: 5%;
+}
