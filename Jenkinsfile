@@ -5,7 +5,7 @@ pipeline {
             args '--user root -v /var/run/docker.sock:/var/run/docker.sock' // Mount Docker socket to access the host's Docker daemon
         }
     }
-
+        stages {
 		stage ("Building docker image"){
 			steps{
 				sh 'sudo docker build -t web-image:latest .'
